@@ -8,7 +8,7 @@
   </a>
 </p>
 
-<h1 align="center">🚀 INSTALLATION · DOCKER DESKTOP · UBUNTU</h1>
+<h1 align="center">  INSTALLATION · DOCKER DESKTOP · UBUNTU</h1>
 
 <p align="center">
   <b>⚡ One Guide · One Flow · Zero Confusion ⚡</b><br/>
@@ -284,7 +284,8 @@ This guide is **beginner‑proof, production‑ready, and future‑safe**.
   <img src="https://img.shields.io/badge/Mode-Fresh%20Install-yellow?style=for-the-badge" />
 </p>
 
-> ⚠️ **Use this section ONLY if Docker is already installed** and you want a **100% clean / fresh install**.
+> ⚠️ **RUN THIS FIRST if Docker is already installed on your system.**
+> This ensures a **100% clean & conflict-free installation**.
 
 ---
 
@@ -360,7 +361,9 @@ sudo apt update
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/System-Docker%20Completely%20Removed-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/System-CLEAN%20%26%20READY-success?style=for-the-badge" />
 </p>
 
-🎉 **Your system is now CLEAN and ready for a fresh Docker Desktop installation.**
+🎉 **System cleaned successfully. Proceed to NEW INSTALLATION below.**
+
+---
