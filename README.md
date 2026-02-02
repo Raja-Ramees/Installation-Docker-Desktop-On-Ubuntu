@@ -8,7 +8,7 @@
   </a>
 </p>
 
-<h1 align="center"> INSTALLATION · DOCKER DESKTOP · UBUNTU</h1>
+<h1 align="center">🚀 INSTALLATION · DOCKER DESKTOP · UBUNTU</h1>
 
 <p align="center">
   <b>⚡ One Guide · One Flow · Zero Confusion ⚡</b><br/>
@@ -263,36 +263,6 @@ Docker version 28.4.0
 ✅ Docker Compose v2
 ✅ Enterprise‑ready setup
 
-🧹 Clean Uninstall Docker (Fresh Install Preparation)
-
-⚠️ Use this section ONLY if Docker is already installed and you want a 100% clean / fresh install.
-
-✅ Step 1: Stop All Docker Services
-sudo systemctl stop docker docker.socket containerd
-✅ Step 2: Remove All Docker Packages
-sudo apt purge -y docker-ce docker-ce-cli docker.io docker-buildx-plugin docker-compose-plugin containerd runc
-✅ Step 3: Remove Unused Dependencies
-sudo apt autoremove -y --purge
-⚠️ Step 4: DELETE Docker Data (IMPORTANT)
-
-❗ This will remove all containers, images, volumes & networks
-
-sudo rm -rf /var/lib/docker
-sudo rm -rf /var/lib/containerd
-✅ Step 5: Remove Docker Binaries / Leftovers
-sudo rm -f /usr/bin/docker
-sudo rm -f /usr/local/bin/docker
-sudo rm -f /usr/bin/docker-compose
-✅ Step 6: Remove Docker APT Repo & Keys
-sudo rm -f /etc/apt/sources.list.d/docker.list
-sudo rm -f /etc/apt/keyrings/docker.gpg
-✅ Step 7: Delete Docker Group (if exists)
-sudo groupdel docker 2>/dev/null
-✅ Step 8: Refresh APT Cache
-sudo apt clean
-sudo apt update
-
-🎉 Your system is now CLEAN and ready for a fresh Docker Desktop installation.
 ---
 
 ## ❤️ Final Words
@@ -304,3 +274,93 @@ This guide is **beginner‑proof, production‑ready, and future‑safe**.
 ---
 
 🔥 Happy Dockering!
+
+---
+
+# 🧹 Clean Uninstall Docker (Fresh Install Preparation)
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Docker-Cleanup-FF4C4C?logo=docker&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Mode-Fresh%20Install-yellow?style=for-the-badge" />
+</p>
+
+> ⚠️ **Use this section ONLY if Docker is already installed** and you want a **100% clean / fresh install**.
+
+---
+
+## ✅ Step 1: Stop All Docker Services
+
+```bash
+sudo systemctl stop docker docker.socket containerd
+```
+
+---
+
+## ✅ Step 2: Remove All Docker Packages
+
+```bash
+sudo apt purge -y docker-ce docker-ce-cli docker.io docker-buildx-plugin docker-compose-plugin containerd runc
+```
+
+---
+
+## ✅ Step 3: Remove Unused Dependencies
+
+```bash
+sudo apt autoremove -y --purge
+```
+
+---
+
+## ⚠️ Step 4: DELETE Docker Data (IMPORTANT)
+
+> ❗ This will remove **all containers, images, volumes & networks**
+
+```bash
+sudo rm -rf /var/lib/docker
+sudo rm -rf /var/lib/containerd
+```
+
+---
+
+## ✅ Step 5: Remove Docker Binaries / Leftovers
+
+```bash
+sudo rm -f /usr/bin/docker
+sudo rm -f /usr/local/bin/docker
+sudo rm -f /usr/bin/docker-compose
+```
+
+---
+
+## ✅ Step 6: Remove Docker APT Repo & Keys
+
+```bash
+sudo rm -f /etc/apt/sources.list.d/docker.list
+sudo rm -f /etc/apt/keyrings/docker.gpg
+```
+
+---
+
+## ✅ Step 7: Delete Docker Group (if exists)
+
+```bash
+sudo groupdel docker 2>/dev/null
+```
+
+---
+
+## ✅ Step 8: Refresh APT Cache
+
+```bash
+sudo apt clean
+sudo apt update
+```
+
+---
+
+<p align="center">
+  <img src="https://img.shields.io/badge/System-Docker%20Completely%20Removed-success?style=for-the-badge" />
+</p>
+
+🎉 **Your system is now CLEAN and ready for a fresh Docker Desktop installation.**
