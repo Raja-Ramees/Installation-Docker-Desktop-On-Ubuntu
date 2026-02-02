@@ -14,6 +14,14 @@
 - ☁️ AWS, Azure, GCP  
 - 🔐 Linux Server Hardening & Monitoring
 
+- ## 📂 Featured Projects
+
+- 🔥 **Docker Desktop Fresh Install Guide (Ubuntu)**
+- ⚡ **Production-Ready CI/CD Pipeline**
+- 📊 **Monitoring with Grafana + Prometheus**
+- 🧠 **AI Automation using n8n**
+
+
 
 <p align="center">
   <img src="https://github.com/Raja-Ramees.png" width="120">
