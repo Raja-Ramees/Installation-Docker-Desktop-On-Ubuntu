@@ -6,6 +6,14 @@
   <img src="https://img.shields.io/badge/Kubernetes-Hands--On-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white">
   <img src="https://img.shields.io/badge/AWS-Solutions%20Architect-FF9900?style=for-the-badge&logo=amazonaws&logoColor=black">
 </p>
+## 👨‍💻 What I Do
+
+- 🚀 DevOps & Cloud Infrastructure  
+- 🐳 Docker & Container Orchestration  
+- ⚙️ CI/CD Automation (GitHub / GitLab / Jenkins)  
+- ☁️ AWS, Azure, GCP  
+- 🔐 Linux Server Hardening & Monitoring
+
 
 <p align="center">
   <img src="https://github.com/Raja-Ramees.png" width="120">
