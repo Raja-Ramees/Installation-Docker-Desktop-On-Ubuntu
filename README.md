@@ -2,7 +2,13 @@
   <img src="https://raw.githubusercontent.com/docker/docs/main/static/img/docker-logo-white.png" width="420" />
 </p>
 
-<h1 align="center">  INSTALLATION · DOCKER DESKTOP · UBUNTU</h1>
+<p align="center">
+  <a href="https://www.linkedin.com/in/raja-ramees-804a7b262" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Raja%20Ramees-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge" />
+  </a>
+</p>
+
+<h1 align="center">🚀 INSTALLATION · DOCKER DESKTOP · UBUNTU</h1>
 
 <p align="center">
   <b>⚡ One Guide · One Flow · Zero Confusion ⚡</b><br/>
