@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/docker/docs/main/static/img/docker-logo-white.png" width="420" />
 </p>
 
-<h1 align="center">🚀 INSTALLATION · DOCKER DESKTOP · UBUNTU</h1>
+<h1 align="center">  INSTALLATION · DOCKER DESKTOP · UBUNTU</h1>
 
 <p align="center">
   <b>⚡ One Guide · One Flow · Zero Confusion ⚡</b><br/>
