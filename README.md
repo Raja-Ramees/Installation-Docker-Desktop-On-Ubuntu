@@ -1,51 +1,99 @@
-Installation Docker Desktop on Ubuntu
-🌟 What You Will Achieve
+<p align="center">
+  <img src="https://raw.githubusercontent.com/docker/docs/main/static/img/docker-logo-white.png" width="420" />
+</p>
 
-✅ Install Docker Desktop on Ubuntu step‑by‑step
-✅ Use GUI + Terminal together
-✅ Proper Docker repository setup using .sh script
+<h1 align="center">🚀 INSTALLATION · DOCKER DESKTOP · UBUNTU</h1>
+
+<p align="center">
+  <b>⚡ One Guide · One Flow · Zero Confusion ⚡</b><br/>
+  <i>Built for beginners, trusted by professionals</i>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Ubuntu-22.04%20%7C%2024.04-FF6C37?logo=ubuntu&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Docker-Desktop-2496ED?logo=docker&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Setup-Type%20%7C%20GUI%20+%20CLI-0db7ed?style=for-the-badge" />
+</p>
+
+<hr/>
+
+<p align="center">
+  <img src="https://www.vectorlogo.zone/logos/docker/docker-ar21.svg" width="300" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Ubuntu-22.04%20%7C%2024.04-orange?logo=ubuntu&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Docker-Desktop-blue?logo=docker&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Level-Beginner%20Friendly-green?style=for-the-badge" />
+</p>
+
+---
+
+## 🌟 What You Will Achieve
+
+✅ Install **Docker Desktop** on Ubuntu step‑by‑step
+✅ Use **GUI + Terminal** together
+✅ Proper **Docker repository setup using `.sh` script**
 ✅ Verify Docker, Docker Compose & CLI
 
-🟢 STEP 1: Go to Docker Website
+---
+
+## 🟢 STEP 1: Go to Docker Website
 
 🌐 Open browser and go to:
 
-👉 https://www.docker.com
+👉 **[https://www.docker.com](https://www.docker.com)**
 
-Actions:
+### Actions:
 
-Put your cursor on Download Docker Desktop
-
-Click Docker Desktop for Linux
-
-Choose Ubuntu
+1. Put your **cursor on `Download Docker Desktop`**
+2. Click **Docker Desktop for Linux**
+3. Choose **Ubuntu**
 
 📌 Keep this page open
 
-🟢 STEP 2: Read Installation Instructions
+---
+
+## 🟢 STEP 2: Read Installation Instructions
 
 On the same page, scroll to:
 
-Install Docker Desktop on Ubuntu
+> **Install Docker Desktop on Ubuntu**
 
 You will see:
 
-Recommended approach to install Docker Desktop on Ubuntu
+> **Recommended approach to install Docker Desktop on Ubuntu**
 
-👉 Click “Install using the apt repository”
+👉 Click **“Install using the apt repository”**
 
-📋 COPY the repository setup code (we will paste it in a script)
+📋 **COPY the repository setup code** (we will paste it in a script)
 
-🟢 STEP 3: Create Installation Script (.sh)
-Open Terminal
+---
+
+## 🟢 STEP 3: Create Installation Script (.sh)
+
+### Open Terminal
+
+```bash
 cd ~/Downloads
-Create script file
-touch install-docker-desktop.sh
-Open file in editor
-nano install-docker-desktop.sh
-Paste this code inside 👇
-#!/bin/bash
+```
 
+### Create script file
+
+```bash
+touch install-docker-desktop.sh
+```
+
+### Open file in editor
+
+```bash
+nano install-docker-desktop.sh
+```
+
+### Paste this code inside 👇
+
+```bash
+#!/bin/bash
 
 # Add Docker's official GPG key:
 sudo apt update
@@ -53,7 +101,6 @@ sudo apt install -y ca-certificates curl
 sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
 sudo chmod a+r /etc/apt/keyrings/docker.asc
-
 
 # Add the repository to Apt sources:
 sudo tee /etc/apt/sources.list.d/docker.sources > /dev/null <<EOF
@@ -64,96 +111,160 @@ Components: stable
 Signed-By: /etc/apt/keyrings/docker.asc
 EOF
 
-
 sudo apt update
+```
 
 Save & exit:
 
+```
 CTRL + O → ENTER → CTRL + X
-🟢 STEP 4: Run the Script
-Give permission
+```
+
+---
+
+## 🟢 STEP 4: Run the Script
+
+### Give permission
+
+```bash
 chmod 700 install-docker-desktop.sh
-Run script
+```
+
+### Run script
+
+```bash
 ./install-docker-desktop.sh
+```
 
 ✅ Docker repository is now configured correctly
 
-🟢 STEP 5: Download Docker Desktop (.deb)
+---
 
-Go back to Docker website
+## 🟢 STEP 5: Download Docker Desktop (.deb)
+
+Go back to **Docker website**
 
 👉 Click:
 
-Download the latest DEB package
+**Download the latest DEB package**
 
 📥 File will download to:
 
+```
 ~/Downloads/docker-desktop-amd64.deb
-🟢 STEP 6: Install Docker Desktop
+```
+
+---
+
+## 🟢 STEP 6: Install Docker Desktop
 
 In terminal:
 
+```bash
 sudo apt-get update
 sudo apt install ./docker-desktop-amd64.deb
-⚠️ IMPORTANT NOTE
+```
+
+### ⚠️ IMPORTANT NOTE
 
 You may see this warning (IGNORE IT):
 
+```
 N: Download is performed unsandboxed as root
 Permission denied
+```
 
-✔️ This is normal & safe
+✔️ This is **normal & safe**
 
 📍 Installed location:
 
+```
 /opt/docker-desktop
-🟢 STEP 7: What Installer Does Automatically
+```
+
+---
+
+## 🟢 STEP 7: What Installer Does Automatically
 
 ✔ Maps privileged ports
 ✔ Sets resource limits
-✔ Adds Kubernetes DNS to /etc/hosts
+✔ Adds Kubernetes DNS to `/etc/hosts`
 ✔ Creates Docker CLI symlink
 
+```
 /usr/local/bin/com.docker.cli → /usr/bin/docker
-🟢 STEP 8: Launch Docker Desktop
-🎨 GUI Method
+```
 
-Open Applications
+---
 
-Click Docker Desktop
+## 🟢 STEP 8: Launch Docker Desktop
 
-Accept Docker Subscription Agreement
+### 🎨 GUI Method
+
+1. Open **Applications**
+2. Click **Docker Desktop**
+3. Accept **Docker Subscription Agreement**
 
 🚨 Docker Desktop will NOT start without accepting terms
 
-⚡ Terminal Method
+---
+
+### ⚡ Terminal Method
+
+```bash
 systemctl --user start docker-desktop
+```
 
 Enable auto‑start on login:
 
+```bash
 systemctl --user enable docker-desktop
+```
 
 Stop Docker Desktop:
 
+```bash
 systemctl --user stop docker-desktop
-🟢 STEP 9: Verify Installation
+```
+
+---
+
+## 🟢 STEP 9: Verify Installation
+
+```bash
 docker compose version
 docker --version
 docker version
+```
 
 Expected output example:
 
+```
 Docker Compose version v2.39.4
 Docker version 28.4.0
-🎉 SUCCESS! YOU ARE DONE
+```
+
+---
+
+## 🎉 SUCCESS! YOU ARE DONE
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Docker-Desktop%20Installed-success?style=for-the-badge&logo=docker" />
+</p>
 
 ✅ Docker Desktop GUI
 ✅ Docker CLI
 ✅ Docker Compose v2
 ✅ Enterprise‑ready setup
 
-❤️ Final Words
+---
 
-This guide is beginner‑proof, production‑ready, and future‑safe.
+## ❤️ Final Words
 
-📌 Share this repo with your team — anyone can install Docker Desktop in minutes.
+This guide is **beginner‑proof, production‑ready, and future‑safe**.
+
+📌 Share this repo with your team — anyone can install Docker Desktop in **minutes**.
+
+---
+
+🔥 Happy Dockering!
