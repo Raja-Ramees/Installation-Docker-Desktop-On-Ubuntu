@@ -26,6 +26,16 @@
 - ☁️ AWS, Azure, GCP  
 - 🔐 Linux Server Hardening & Monitoring
 
+- ## 🏆 Certifications
+
+- ✅ AWS Solutions Architect  
+- ✅ CompTIA Linux+  
+- ✅ DevOps Certified  
+- ✅ Docker & Kubernetes
+
+> ⚡ Building scalable, secure & production-ready cloud infrastructure.
+
+
 - ## 📂 Featured Projects
 
 - 🔥 **Docker Desktop Fresh Install Guide (Ubuntu)**
