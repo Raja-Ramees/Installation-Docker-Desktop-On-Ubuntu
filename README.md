@@ -1,3 +1,22 @@
+<p align="center">
+  <img src="https://github.com/Raja-Ramees.png" width="120">
+</p>
+
+<h2 align="center">Raja Ramees</h2>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/raja-ramees-804a7b262">
+    <img src="https://img.shields.io/badge/LinkedIn-Raja%20Ramees-blue?style=for-the-badge&logo=linkedin">
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/OS-Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
+  <img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+</p>
+
+---
+
 # 🧹 Clean Uninstall Docker (Fresh Install Preparation)
 
 <p align="center">
